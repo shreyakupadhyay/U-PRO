@@ -1,0 +1,11 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+test_case = input()
+for i in range(0,test_case):
+    val = input()
+    val_3 = (val-1)//3
+    val_5 = (val-1)//5
+    val_15 = (val-1)//15
+    count_3 = (3*(val_3)*(val_3+1))/2
+    count_5 = (5*(val_5)*(val_5+1))/2
+    count_15 = (15*(val_15)*(val_15+1))/2 
+    print count_3 + count_5 - count_15 
