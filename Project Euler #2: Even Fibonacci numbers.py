@@ -18,7 +18,6 @@ for i in range(0,test_case):
         val_second = val_third + 4*val_first
         val_third =  val_first + 4*val_second 
         #print val_first,val_second,val_third
-        
     print count
        
         
