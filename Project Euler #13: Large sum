@@ -1,0 +1,14 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+from __future__ import print_function
+test_case = input()
+sum_val=0
+for i in range(0,test_case):
+    val = input()
+    sum_val = sum_val + val
+
+sum_val_string = str(sum_val)
+sum_val_arr=[]
+for k in range(0,len(sum_val_string)):
+    sum_val_arr.append(sum_val_string[k])
+for j in range(0,10):
+    print (sum_val_arr[j],end="")
