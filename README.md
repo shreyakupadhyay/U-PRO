@@ -1,2 +1,2 @@
 # project-u+
-solutions to project euler+ hackerrank
+Solutions to the questions of project euler+ contest on hackerrank
